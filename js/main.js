@@ -12,9 +12,9 @@
 
 //var lista = ["maça", "pera", "laranja"];
 //console.log(lista[1]);
-//lista.push("uva");
+//lista.push("uva"); // Adiciona um elemento na lista
 //console.log(lista);
-// lista.pop();
+// lista.pop(); // Retira o ultimo elemento da lista
 // console.log(lista);
 // console.log(lista.length);
 // console.log(lista.reverse());
@@ -26,10 +26,56 @@
 // console.log(fruta);
 // alert(fruta.cor);
 
-var idade = 18
-if(idade > 18){
-    alert("Maior de idade")
-}else{
-    alert("menor de Idade")
+// var idade = prompt ("Qual a sua idade?"); // prompt exibe uma caixa de dialogo.
+// if(idade > 18){
+//    alert("Maior de idade")
+// }else{
+//    alert("menor de Idade")
+// }
+/*
+var count = 0;
+
+while (count <= 5){
+    console.log(count);
+    count ++
+};
+*/
+/*
+var count;
+for (count=0; count <=5; count++){
+    alert (count);
+}
+*/
+/*
+var d = new Date(); //Traz data atual completa
+alert(d.getDay());
+*/
+/*
+function soma(n1, n2){
+    return n1 + n2;
 }
 
+function setReplace (frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome);
+}
+
+function validaIdade (idade){
+    var validar //variavel local
+    if (idade>=18){
+        validar = true;
+    }else(
+        validar = false
+    )
+        return validar
+}
+
+var idade = prompt("Qual sua idade");
+console.log(validaIdade(idade));
+// alert(setReplace("Vai Japão","Japão","Brasil"));
+
+// alert(soma(5,10));
+*/
+
+function botao (){
+    alert("Você será redirecionado");
+}
