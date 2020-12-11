@@ -1,0 +1,18 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "178.128.179.25",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "FUTURA",
+            "group": "GRUPO FAVENI",
+            "database": "ofc_futura",
+            "username": "allan",
+            "password": "8*YY&$!H%4p#lQb"
+        }
+    ]
+}
