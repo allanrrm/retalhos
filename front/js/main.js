@@ -76,6 +76,17 @@ console.log(validaIdade(idade));
 // alert(soma(5,10));
 */
 
-function botao (){
-    alert("Você será redirecionado");
+function trocar(elemento){
+    elemento.innerHTML = "e-mail";
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "allan.rezende@outlook.com"
+}
+
+function load(){ //OnLoad
+    alert("Pagina carregada");
+}
+function change(elemento){
+    console.log(elemento.value)
 }
